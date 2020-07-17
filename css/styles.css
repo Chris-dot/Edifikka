@@ -39,9 +39,14 @@ header {
    
         #nav ul li img.sketch {
             display: block;
-            padding-left: 33%;
+            padding-left: 30%;
             height: 45px;  
             
+        }
+
+        #nav ul li a.reg-text {
+            display: relative;
+            margin-left: -10%;
         }
 
         #nav ul li img.corretaje {
@@ -60,6 +65,7 @@ header {
         #nav ul li img.constructora {
             display: block;
             padding-left: 40%;
+            padding-top: -2%;
             height: 45px;
         }
         
@@ -69,18 +75,67 @@ header {
         }
 
         #nav ul li.contactanos {
-            display: block;           
-            padding-left: 55px;
-            margin-top: -7px;
+            display: relative;
+            margin-left: 150px;
+            margin-top: -5px;
             font-size: 0.9em;
             font-family: Arial, Helvetica, sans-serif;
-            font-weight: 600;
-            
+            font-weight: 300;            
         }
+
+        #nav ul li.wsp-number {
+            display: block;
+            margin-left: -14%;
+            margin-top: 1%;            
+            font-size: 1.1em;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;             
+        }
+
         #nav ul li img.WspContacto {
             display: block;
+            margin-left: -20%;
+            margin-top: -38%;
+
         }
-       
+
+/* Div Container (Menu Hamburguesa) */
+        #nav ul li div.hamburguer {
+            min-width: 30px;
+            max-width: 50px;
+        }        
+
+        #nav div div.hamburguer-inner, .hamburguer-inner:after, .hamburguer-inner:before {
+            background-color: blue;
+            position: absolute;
+            width: 40px;
+            height: 4px;
+            border-radius: 5px;
+            content: '';
+            transition-timing-function: ease;
+            transition-duration: .2s;
+            transition-property: transform, opacity;
+        }
+
+        #nav div div.hamburguer-inner:before {
+            top: 10px;
+        }
+
+        #nav div div.hamburguer-inner:after {
+            top: 20px;
+        }
+
+            #nav ul li div div.hamburguer.open .hamburguer-inner {
+                transform: translate3d(0,10px,0) rotate(45deg);
+            }
+
+            #nav div div.hamburguer.open .hamburguer-inner:after {
+                transform: translate3d(0,-20px,0) rotate(-90deg);
+            }
+
+            #nav div div.hamburguer.open .hamburguer-inner:before {
+                transform: translate3d(0, -20px, 0) rotate(90deg);
+            }
 
         #nav ul li a,
         #nav ul li span {
