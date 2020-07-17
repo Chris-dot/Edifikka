@@ -46,19 +46,20 @@ header {
 
         #nav ul li img.corretaje {
             display: block;
-            padding-left: 35%;
+            padding-left: 50px;
+            padding-right: 50px;
             height: 45px;
             
         }
 
         #nav ul li a.cor-text {
             display: relative;
-            padding-left: 26%;
+            padding-left: 25%;
         }
 
         #nav ul li img.constructora {
             display: block;
-            padding-left: 33%;
+            padding-left: 40%;
             height: 45px;
         }
         
@@ -68,7 +69,10 @@ header {
         }
 
         #nav ul li.contactanos {
-            display: block;
+            display: block;           
+            padding-left: 55px;
+            margin-top: -7px;
+            font-size: 0.9em;
             font-family: Arial, Helvetica, sans-serif;
             font-weight: 600;
             
