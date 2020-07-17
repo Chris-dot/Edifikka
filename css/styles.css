@@ -18,7 +18,7 @@ header {
 /* NAV */
 #nav {
     position: absolute;
-    right: 35%;
+    padding-left: 10%;    
     top: 2em;
     font-size: 1.2em;   
     
@@ -39,21 +39,44 @@ header {
    
         #nav ul li img.sketch {
             display: block;
-            padding-left: 30%;
+            padding-left: 33%;
             height: 45px;  
             
         }
+
         #nav ul li img.corretaje {
             display: block;
-            padding-left: 30%;
+            padding-left: 35%;
             height: 45px;
             
         }
+
+        #nav ul li a.cor-text {
+            display: relative;
+            padding-left: 26%;
+        }
+
         #nav ul li img.constructora {
             display: block;
-            padding-left: 30%;
+            padding-left: 33%;
             height: 45px;
-        }    
+        }
+        
+        #nav ul li a.const-text {
+            display: relative;
+            padding-left: 18%;
+        }
+
+        #nav ul li.contactanos {
+            display: block;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            
+        }
+        #nav ul li img.WspContacto {
+            display: block;
+        }
+       
 
         #nav ul li a,
         #nav ul li span {
@@ -134,7 +157,7 @@ header {
                 position: center;
             }
 
-/**Aling-vertical --> Boton Buscar **/
+/* Aling-vertical --> Boton Buscar */
 
             #banner header div button {
                 width: 6%;
