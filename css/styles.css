@@ -462,15 +462,94 @@ header {
             }
 
             
+            
+            
+            #main div.container-back{                
+                background-position: center center;
+                background-size: 100%;
+                background-repeat: no-repeat;
+                position: relative;
+                top: 80%;                             
+                width: 100%;
+                -ms-transform: skewY(-10deg);            
+                transform: skewY(-4deg);                
+                background-size: cover;
+                background-position: center;
+                transition: .2s;
+                text-align: center;
+                overflow: hidden;
+                z-index: 3;
+                
+            }
+
             #main div.back-ground{
-                background-image: url();
+                background-image: url("/src/img/Fondo-escritorio-oficina.jpg");                
+                background-size: 100%;
+                background-position: center center;                
+                background-repeat: no-repeat;
+                position: relative;                                                       
+                height: 280px;
+            }
+
+            #main div.Items{
+                display: flex;                
+                flex-direction: row;
+                position: relative;
+                align-items: center;                
+                float: left;
+                z-index: 2;
             }
 
             #main img.img-house3{
-                display: realative;
-                margin-top: 50px;
-                padding-top: 50px;
+                filter: invert(100%);
+                display: absolute;
+                transform: rotate(4deg);            
+                padding-top: 30px;
+                margin-left: 50px;
+                z-index: 3;
             }
+
+            #main img.img-loteos{
+                filter: invert(100%);
+                display: absolute;
+                transform: rotate(4deg);
+                margin-top: 30px;
+                padding-top: 30px;
+                margin-left: 60px;
+            }
+
+            #main img.img-regular{
+                filter: invert(100%);
+                display: absolute;
+                transform: rotate(4deg);
+                margin-top: 30px;
+                margin-left: 40px;
+                padding-left: 80px;
+                padding-top: 30px;
+            }
+            
+            #main div h3.title-items{
+                display: relative;
+                font-family: -apple-system,
+                BlinkMacSystemFont,
+                'Segoe UI',
+                Roboto,
+                Oxygen,
+                Ubuntu,
+                Cantarell,
+                'Open Sans',
+                'Helvetica Neue',
+                sans-serif;        
+                transform: skewY(4deg);
+                padding-bottom: 20px;
+                color: #ffffff;
+                margin-top: 250px; 
+                margin-left: -50px; 
+
+
+            }
+
+            
 
     
 
