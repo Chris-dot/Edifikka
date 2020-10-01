@@ -483,53 +483,71 @@ header {
             }
 
             #main div.back-ground{
-                background-image: url("../img/Fondo-escritorio-oficina2.jpg");                
+                background-image: url("../img/Fondo-escritorio-oficina2.jpg");
                 background-size: 100%;
                 background-position: center center;                
-                background-repeat: no-repeat;
+                background-repeat: no-repeat;                
                 position: relative;                                                       
-                height: 280px;
+                height: 250px;
             }
 
             #main div.Items{
                 display: flex;                
                 flex-direction: row;
-                position: relative;
+                position: absolute;
                 align-items: center;                
                 float: left;
+                height: 200px;
                 z-index: 2;
             }
 
-            #main img.img-house3{
+            #main img.img-gestion{
                 filter: invert(100%);
                 display: absolute;
-                transform: rotate(4deg);            
-                padding-top: 30px;
-                margin-left: 50px;
+                transform: rotate(3deg);
+                margin-top: -40px;                            
+                margin-left: 90px;                
                 z-index: 3;
             }
 
             #main img.img-loteos{
                 filter: invert(100%);
                 display: absolute;
-                transform: rotate(4deg);
-                margin-top: 30px;
+                transform: rotate(3deg);
+                margin-top: -50px;                
+                margin-left: 90px;
                 padding-top: 30px;
-                margin-left: 60px;
             }
 
             #main img.img-regular{
                 filter: invert(100%);
                 display: absolute;
-                transform: rotate(4deg);
-                margin-top: 30px;
-                margin-left: 40px;
-                padding-left: 80px;
+                transform: rotate(3deg);
+                margin-top: -30px;
+                margin-left: 150px;                
                 padding-top: 30px;
             }
+
+            #main img.img-inscripciones{
+                filter: invert(100%);
+                display: absolute;
+                transform: rotate(3deg);
+                margin-top: -30px;
+                margin-left: 140px;
+                padding-top: 50px;
+            }
+
+            #main img.img-proNuevo{
+                filter: invert(100%);
+                display: absolute;
+                transform: rotate(3deg);
+                margin-top: -10px;
+                margin-left: 120px;
+                padding-top: 50px;
+            }
             
-            #main div h3.title-items{
-                display: relative;
+            #main div h3.title-items-gest{
+                display: absolute;
                 font-family: -apple-system,
                 BlinkMacSystemFont,
                 'Segoe UI',
@@ -543,11 +561,90 @@ header {
                 transform: skewY(4deg);
                 padding-bottom: 20px;
                 color: #ffffff;
-                margin-top: 250px; 
-                margin-left: -50px; 
-
-
+                margin-top: 150px; 
+                margin-left: -140px; 
+     
             }
+
+            #main div h3.title-items-lote{
+                display: absolute;
+                font-family: -apple-system,
+                BlinkMacSystemFont,
+                'Segoe UI',
+                Roboto,
+                Oxygen,
+                Ubuntu,
+                Cantarell,
+                'Open Sans',
+                'Helvetica Neue',
+                sans-serif;
+                transform: skewY(4deg);
+                padding-bottom: 20px;
+                color: #ffffff;
+                margin-top: 180px;
+                margin-left: -65px;
+            }
+
+            #main div h3.title-items-regu{
+                display: absolute;
+                font-family: -apple-system,
+                BlinkMacSystemFont,
+                'Segoe UI',
+                Roboto,
+                Oxygen,
+                Ubuntu,
+                Cantarell,
+                'Open Sans',
+                'Helvetica Neue',
+                sans-serif;
+                transform: skewY(4deg);
+                padding-bottom: 20px;
+                color: #ffffff;
+                margin-top: 200px;
+                margin-left: -100px;
+            }
+
+            #main div h3.title-items-insc{
+                display: absolute;
+                font-family: -apple-system,
+                BlinkMacSystemFont,
+                'Segoe UI',
+                Roboto,
+                Oxygen,
+                Ubuntu,
+                Cantarell,
+                'Open Sans',
+                'Helvetica Neue',
+                sans-serif;                
+                transform: skewY(4deg);
+                padding-bottom: 20px;
+                color: #ffffff;
+                margin-top: 230px;
+                margin-left: -140px;
+            }
+
+            #main div h3.title-items-project{
+                display: absolute;
+                font-family: -apple-system,
+                BlinkMacSystemFont,
+                'Segoe UI',
+                Roboto,
+                Oxygen,
+                Ubuntu,
+                Cantarell,
+                'Open Sans',
+                'Helvetica Neue',
+                sans-serif;
+                transform: skewY(4deg);            
+                padding-bottom: 20px;
+                color: #ffffff;
+                margin-top: 260px;
+                margin-left: -110px;
+            }
+
+            
+
+
 
             
 
