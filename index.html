@@ -6,6 +6,8 @@
 <title>Edifikka | Arquitectos en Las Cabras</title>
 <link rel="stylesheet" href="css/styles.css">
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
 
 
 </head>
@@ -39,13 +41,45 @@
                         <header>
                             <div class="main-text">
                                 <ul>
-                                    <h1 class="title-banner">Gestión de subdivisiones, loteos, regularizaciones, inscripciones de viviendas y proyectos nuevos.</h1>
-                                </ul>                                
-                            </div>                            
-                            <div class="search-container">
-                              <input type="text" placeholder="  ¿Que estas buscando?    " >
-                              <button type="submit"><i class="fa fa-search" style="display: inline-block;"></i></button>
-                            </div>                            
+                                    <h1 class="title-banner">gestión de subdivisiones, loteos, regularizaciones, inscripciones de viviendas y proyectos nuevos.</h1>
+                                </ul> 
+
+                            </div> 
+
+                            <div class="search-box">
+                                <input class="search-txt" id="buscador" type="text"  name="" placeholder="¿Qué estás buscando?" >
+                                    <a class="search-btn" id="boton" href="#">
+                                        <i class="fa fa-search fa-2x"></i>
+                                    </a>                                
+                            </div>
+
+                <!--campo de busqueda-->
+                        <div id="field-search-id">
+                            <ul class="field-search">                            
+                                    <li>
+                                        <div style="text-align: left;">
+                                            <a href="#"><i class="fa fa-search"></i>Regularizaciones</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div style="text-align: left;">
+                                            <a href="#"><i class="fa fa-search"></i>Corretaje</a>
+                                        </div>                                        
+                                    </li>                                    
+                                    <li>
+                                        <div style="text-align: left;">
+                                            <a href="#"><i class="fa fa-search"></i>Constructora</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div style="text-align: left;">
+                                            <a href="#"><i class="fa fa-search"></i>Loteos</a>
+                                        </div>                                        
+                                    </li>                                                            
+                            </ul>
+                        </div>
+                            
+                                                   
                         </header>
                     </section>
 
@@ -90,7 +124,7 @@
                                                              padding-left: 10%; 
                                                              padding-right: 10%; 
                                                              font-weight: 600;
-                                                             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"> Nuestro servicio comprende todos los pasos necesarios para la normalización
+                                                             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> Nuestro servicio comprende todos los pasos necesarios para la normalización
                                  de su proyecto de edificación ya sea una ampliación
                                   u obra nueva. Lo resolvemos en 3 pasos </p>
                                
@@ -172,6 +206,7 @@
                                         <li>certificado de Agua Potable y Alcantarillado</li>
                                         <li>Inspección Municipal Final</li>
                                         <br>
+                                        <br>
                                     </ui>
                                     <div>
                                         <button class="btn-information"> + informacion</button>
@@ -210,14 +245,25 @@
                             
                         </div>
                         
-                    </div>                                    
-
-                        <footer>
-                            <ul class="actions">
-                                <li><a href="#" class="button large">Get Started</a></li>
-                                <li><a href="#" class="button alt large">Learn More</a></li>
-                            </ul>
-                        </footer>
+                    </div>   
+                
+                <!--FOOTER-->
+                                    
+                        <section id="footer">
+                            <div>
+                                <h2 class="contact-title">Contacto</h2>
+                                <form class="form-container">
+                                    <input class="it-nombre" id=nombre"" type="text" name="nombre" placeholder="nombre:">
+                                    <input class="it-proyecto" id="proyecto" type="text" name="proyecto" placeholder="proyecto:">
+                                    <input class="it-rut" id="rut" type="text" name="rut" placeholder="rut:">
+                                    <input class="it-mensaje" id="mensaje" type="text" name="mensaje" placeholder="mensaje:">
+                                    <input class="it-telefono" id="telefono" type="text" name="telefono" placeholder="teléfono:">
+                                    <input class="it-email" id="email" type="text" name="email" placeholder="email">
+                                    <input class="it-edad" id="edad" type="text" name="edad" placeholder="edad">
+                                </form>
+                                <div id="googleMap" alt="googlemap"></div>
+                            </div>
+                        </section>
                     </section>
 
 
@@ -225,6 +271,7 @@
             </section>
     </div>
     <script src="js/index.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDE3bpMu8ZFoLUdSG-cm8-d0EBZyaDHT8M&callback=myMap"></script>
 </body>
 
 </html>
