@@ -247,7 +247,8 @@ header {
 
             #banner header ul.field-search{
                 position: absolute;    
-                display: none;                             
+                visibility: visible;
+                transition: width 2s;              
                 top: 232px;
                 float: left;
                 left: 28.7%;
@@ -261,7 +262,7 @@ header {
             }
 
             #banner header div#field-search-id{
-                display: absolute;
+                display: none;
             }
             
 
@@ -563,8 +564,7 @@ header {
                 transition: .2s;
                 text-align: center;
                 overflow: hidden;
-                z-index: 3;
-                
+                z-index: 3;                
             }
 
             #main div.back-ground{
@@ -572,16 +572,18 @@ header {
                 background-size: 100%;
                 background-position: center center;                
                 background-repeat: no-repeat;                
-                position: relative;                                                       
+                position: relative;  
+                align-items: center;                                                     
                 height: 250px;                
                 padding-left: 50px;
+                padding-right: 50px;
             }
 
             #main div.Items{
                 display: flex;                
                 flex-direction: row;
                 position: absolute;
-                align-items: center;                
+                align-items: center;                            
                 float: left;
                 height: 200px;                
                 z-index: 2;
@@ -592,7 +594,7 @@ header {
                 display: absolute;
                 transform: rotate(3deg);
                 margin-top: -40px;                            
-                margin-left: 90px;                
+                margin-left: 10%; /* 90px*/                
                 z-index: 3;
             }
 
@@ -601,7 +603,7 @@ header {
                 display: absolute;
                 transform: rotate(3deg);
                 margin-top: -50px;                
-                margin-left: 90px;
+                margin-left: 15%; /* 90px*/
                 padding-top: 30px;
             }
 
@@ -610,7 +612,7 @@ header {
                 display: absolute;
                 transform: rotate(3deg);
                 margin-top: -30px;
-                margin-left: 150px;                
+                margin-left: 20%; /*150px*/               
                 padding-top: 30px;
             }
 
@@ -619,7 +621,7 @@ header {
                 display: absolute;
                 transform: rotate(3deg);
                 margin-top: -30px;
-                margin-left: 140px;
+                margin-left: 18%; /*140px*/
                 padding-top: 50px;
             }
 
@@ -628,7 +630,7 @@ header {
                 display: absolute;
                 transform: rotate(3deg);
                 margin-top: -10px;
-                margin-left: 120px;
+                margin-left: 20%; /*120px*/
                 padding-top: 50px;
             }
             
@@ -648,7 +650,7 @@ header {
                 padding-bottom: 20px;
                 color: #ffffff;
                 margin-top: 150px; 
-                margin-left: -140px; 
+                margin-left: -10%; /* -140*/
      
             }
 
@@ -706,7 +708,7 @@ header {
                 padding-bottom: 20px;
                 color: #ffffff;
                 margin-top: 230px;
-                margin-left: -140px;
+                margin-left: -11%; /*-140px*/
             }
 
             #main div h3.title-items-project{
@@ -725,7 +727,7 @@ header {
                 padding-bottom: 20px;
                 color: #ffffff;
                 margin-top: 260px;
-                margin-left: -110px;
+                margin-left: -9%; /*-110px*/
             }
 
 
@@ -790,8 +792,7 @@ header {
             #footer form input.it-mensaje {
                 position: relative;
                 display: flex;
-                border-radius: 7px;                
-                vertical-align: ;                                                       
+                border-radius: 7px;                                                                       
                 height: 240px;
                 width: 280px;
                 font-size: 1em;
@@ -853,13 +854,46 @@ header {
                 width:400px;
                 height:400px;
             }
+
+            #footer div.container-back2 {
+                background-position: center center;
+                background-size: 100%;
+                background-repeat: no-repeat;
+               /* position: relative;*/
+                top: 80%;
+                width: 100%;
+                -ms-transform: skewY(-10deg);
+                transform: skewY(-4deg);
+                background-size: cover;
+                background-position: center;
+                transition: .2s;
+                text-align: center;
+                overflow: hidden;
+                z-index: 2;       
+                /*   Section of shape parallelepiped  */
+                background-color: #212F3D;
+                background-size: 100%;
+                background-position: center center;
+                background-repeat: no-repeat;
+                position: relative;
+                height: 300px;
+                top: 70px; 
+                padding-left: 50px;
+            }
             
-            
+            /*section of shape rectangle*/
+            #footer div.back-ground2{
+                display: absolute;
+                background-color: #212F3D;
+                background-size: 100%;
+                height: 200px;
+                top: 0px;
+                padding-left: 50px;
+            }
 
-            
-    
 
-            
-
-
-
+           
+           
+           
+   
+           
