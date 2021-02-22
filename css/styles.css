@@ -1024,25 +1024,37 @@ header {
            }
            
            #footer div img.WspContacto-footer {
-               display: relative;
+               display: absolute;
                margin-left: -40%;
-               margin-top: -40%;
+               margin-top: 0;
                filter: invert(100);
+           }
+
+           #footer span img.arrow-up{               
+               bottom:0px;
+               display: fixed;
+               height: 40px;
+               width: 40px;
+               position: absolute;
+               right:10px;
+               bottom: 10px;
+               width:50px;
+               cursor: pointer;
            }
            
 
-           #footer div span.ir-arriba{
-               display: inline-block;
-               padding: 20px;                              
-               cursor: pointer;               
-               position: fixed;                                       
-               bottom: 0px;
-               right: 0;
-               left: 95%;
-              /* transform: translate(-50%, -50%) scale(0);*/
-               transition: .2s;
-               
+           #footer div a.ir-arriba {
+               display: fixed;
+               background-repeat: no-repeat;
+               font-size: 20px;
+               color: black;                              
+               bottom: 10px;
+               right: 10px;
+               z-index: 2;
            }
+
+          
+           
            /*
            #footer div span #botonArriba {
                position: fixed;
