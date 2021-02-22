@@ -1011,10 +1011,22 @@ header {
                 
             }
 
+            #footer div label.contacto-txt-footer{
+                display: block;
+                margin-left: -80px;
+                margin-top: -55px;
+                color: #ffffff;
+                font-size: 1.2em;
+                font-family: Arial,
+                Helvetica,
+                sans-serif;
+                font-weight: 300;
+            }
+
            #footer div label.wsp-number-footer{
                display: block;
-               margin-left: 550px;
-               padding-right: 300px;
+               margin-left: 480px;
+               padding-right: 180px;
                margin-top: 6%;
                padding-top: 6%;
                font-size: 1.2em;
@@ -1024,17 +1036,14 @@ header {
            }
            
            #footer div img.WspContacto-footer {
-               display: absolute;
-               margin-left: -40%;
-               margin-top: 0;
+               display: relative;               
+               margin-left: -30%;
+               margin-top: 0px;
                filter: invert(100);
            }
 
-           #footer span img.arrow-up{               
-               bottom:0px;
-               display: fixed;
-               height: 40px;
-               width: 40px;
+           #footer span img.arrow-up{                              
+               display: fixed;                           
                position: absolute;
                right:10px;
                bottom: 10px;
@@ -1047,7 +1056,7 @@ header {
                display: fixed;
                background-repeat: no-repeat;
                font-size: 20px;
-               color: black;                              
+               color: #000;                              
                bottom: 10px;
                right: 10px;
                z-index: 2;
@@ -1061,8 +1070,7 @@ header {
                bottom: 20px;
                right: -100px;
                width: 40px;
-           }
-           
+           }           
            */ 
            
    
