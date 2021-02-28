@@ -303,6 +303,10 @@ header {
         overflow: hidden;
         
     }
+
+    /* Card Horizontal */
+
+
         #main div.container-card {
             display: flex;
             flex-wrap: wrap;
@@ -412,6 +416,8 @@ header {
                 color: #ffffff;
             }
 
+            /* Quotes */
+
             #main p.quote-text:before {
                 left: 100px;
                 top: 240px;
@@ -439,6 +445,8 @@ header {
                 padding-left: 25px;
                 font-weight: 600;
             }
+
+            /* Card Vertical */
 
             #main div.row{
                 display: grid;                ;
@@ -503,12 +511,14 @@ header {
                 height: 70px;
                 top: 20%;
                 left: 7%;
+                filter: invert(100%);
             }
 
             #main section img.img-edificacion{
                 position: relative;
                 height: 70px;
-                top: 20%;                
+                top: 20%;
+                filter: invert(100%);
             }
 
             #main section img.img-solicitud{
@@ -516,6 +526,7 @@ header {
                 height: 70px;
                 top: 20%;
                 left: 7%;
+                filter: invert(100%);
             }
 
             #main header h3.title-card1 {                
@@ -754,6 +765,7 @@ header {
                 padding-left: 10px;
                 margin-left: 100px;
                 outline: none;
+                font-weight: 600;
             }
 
             #footer form input.it-proyecto {
@@ -769,6 +781,7 @@ header {
                 font-size: 1em;
                 border: 0;                
                 outline: none;
+                font-weight: 600;
             }
 
             #footer form input.it-rut {
@@ -784,6 +797,7 @@ header {
                 margin-left: 100px;
                 margin-top: 40px;
                 outline: none;
+                font-weight: 600;
             }
 
             #footer form input.it-mensaje {
@@ -799,6 +813,7 @@ header {
                 margin-top: -30px;
                 outline: none;
                 text-align: justify;
+                font-weight: 600;
                 
             }
 
@@ -830,6 +845,7 @@ header {
                 margin-left: 100px;
                 margin-top: -175px;
                 outline: none;
+                font-weight: 600;
             }
 
             #footer form input.it-email{
@@ -845,6 +861,7 @@ header {
                 margin-left: 100px;
                 margin-top: 40px;
                 outline: none;
+                font-weight: 600;
             }
 
             #footer form input.it-edad{
@@ -860,6 +877,7 @@ header {
                 margin-left: 100px;
                 margin-top: 40px;
                 outline: none;
+                font-weight: 600;
             }
 
             /*Google Map CSS*/
@@ -1042,12 +1060,14 @@ header {
                filter: invert(100);
            }
 
+           /* BTN UP*/
+
            #footer span img.arrow-up{                              
                display: fixed;                           
                position: absolute;
-               right:10px;
-               bottom: 10px;
-               width:50px;
+               right: 20px;
+               bottom: 20px;
+               width: 30px;
                cursor: pointer;
            }
            
