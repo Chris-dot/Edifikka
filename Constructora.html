@@ -5,12 +5,15 @@
 <meta charset="utf-8">
 <title>Edifikka | Arquitectos en Las Cabras</title>
 <!--  CSS  -->
-<link href="css/style2.css" rel="stylesheet">
+<link href="css/style3.css" rel="stylesheet">
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 <link href="fontawesome/css/fontawesome.min.css" rel="stylesheet">
 <link href="path/to/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="icon" href="img/icons/Edifikka-icon.png" type="image/x-icon">
 
 
 </head>
@@ -22,14 +25,14 @@
             <section id="header">
 
                 <!--LOGO-->
-                <a href="/index.html"><img src="/img/Logo_Edifikka.png" alt="logo-edifikka" height="140px"/></a> 
+                <a href="/index.html"><img class="Logo-edifikka" src="/img/Logo_Edifikka.png" alt="logo-edifikka" /></a>
                     
                 <!--NAV-->                    
                     <nav id="nav">
                         <ul>
                             <li style="border-right: black 1px dotted; height: 80px; margin-top: -20px;" class="current"><img class="sketch" src="img/icons/sketch.png" alt="icon-sketch"></img><a class="reg-text" href="#">Regularizaciones</a></li>
                             <li style="border-right: black 1px dotted; height: 80px; margin-top: -20px;"><img class="corretaje" src="img/icons/house-plan.png" alt="icon-corretaje"></img><a class="cor-text" href="#">Corretaje</a></li>
-                            <li><img class="constructora" src="img/icons/wall.png" alt="icon-constructora"></img><a class="const-text" href="#">Constructora</a></li>
+                            <li><img class="constructora" src="img/icons/wall.png" alt="icon-constructora"></img><a class="const-text" href="Constructora.html">Constructora</a></li>
                             <li class="contactanos">Contáctenos</li>
                             <li class="wsp-number">+569 4026 9387<img class="WspContacto" src="img/icons/whatsapp-icon.png" alt="icon-wsp"></img></li>                            
                         </ul>
@@ -67,7 +70,7 @@
                                 <br>
                                 <div class="container-imgBack">
                                     <a href="#" class="link-preConstruccion"><img class="img-preConstruccion"
-                                            src="img\icons\tools-construction.png" alt="icon-report" /></a>
+                                            src="img\icons\tools-construction.png" alt="icon-preConstruccion" /></a>
                                 </div>
                                 <header>
                                     <h3 class="title-card1" style="color: #2ECC71;">Pre Construcción</h3>
@@ -90,7 +93,7 @@
                                 <br>
                                 <div class="container-imgBack">
                                     <a href="#" class="link-faseConstruccion"><img class="img-faseConstruccion"
-                                            src="img\icons\wall-2.png" alt="icon-edificacion" /></a>
+                                            src="img\icons\wall-2.png" alt="icon-FaseConstruccion" /></a>
                                 </div>
                                 <header>
                                     <h3 class="title-card2" style="color: #2ECC71;">Fase de Construcción</h3>
@@ -114,7 +117,7 @@
                                 <!--    <br> -->
                                 <div class="container-imgBack">
                                     <a href="#" class="link-postConstruccion"><img class="img-postConstruccion"
-                                            src="img\icons\architect-contruction.png" alt="icon-report" /></a>
+                                            src="img\icons\architect-contruction.png" alt="icon-postConstruccion" /></a>
                                 </div>
                                 <header>
                                     <h3 class="title-card3" style="color: #2ECC71;">Post Construcción</h3>
@@ -202,7 +205,9 @@
                                     <input class="it-nombre" id="nombre" type="text" name="nombre" placeholder="nombre:">
                                     <input class="it-proyecto" id="proyecto" type="text" name="proyecto" placeholder="proyecto:">
                                     <input class="it-rut" id="rut" type="text" name="rut" placeholder="rut:">
-                                    <input class="it-mensaje" rows="10" cols="40" id="mensaje" type="text" name="mensaje" placeholder="mensaje:" maxlength="200"><button class="btn-enviar">Enviar</button>
+                                    <textarea class="it-mensaje" rows="10" cols="40" id="mensaje" type="text"
+                                        name="mensaje" placeholder="mensaje:" maxlength="200"></textarea><button
+                                        class="btn-enviar"><i class="far fa-envelope"></i>Enviar</button>
                                     <input class="it-telefono" id="telefono" type="tel" name="telefono" placeholder="teléfono:">
                                     <input class="it-email" id="email" type="email" name="email" placeholder="email:">
                                     <input class="it-edad" id="edad" type="age" min="16" max="100" name="edad" placeholder="edad:">
