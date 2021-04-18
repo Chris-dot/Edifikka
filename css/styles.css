@@ -15,18 +15,24 @@ header {
     position: relative;
 }
 
+/* LOGO*/
+
+#header img.Logo-edifikka{
+    height: 140px;           
+}
+
 /* NAV */
 #nav {
+    
     position: absolute;
     padding-left: 10%;    
     top: 2em;
     font-size: 1.2em;   
-    
 }
 
 #nav ul {
     list-style: none;
-    padding-left: 150px;    
+    padding-left: 100px;    
 }
 
     #nav ul li {
@@ -169,8 +175,9 @@ header {
                 margin-top: -80px;
                 line-height: 100%;
                 padding-bottom: 100px;
-                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-family: Isidora Soft;
                 text-align: left;
+                font-weight: 600;
             }
 
             #banner header h1 {
@@ -398,22 +405,32 @@ header {
                 z-index: 1;
                 left: 20%;
                 margin: 10px;
+                
+            }
+
+            #main button i {
+                padding-right: 8px;
+                padding-top: 5px;
             }
 
             #main button.btn-cotiza {
-                background-color: #1da502;
+                background-color: #13c941;
                 color: #ffffff;
                 font-size: 12px;                            
                 padding: 5px;                
                 border: 0;
                 position: relative;
                 cursor: pointer;
-                margin-left: 50px;                                                                
+                margin-left: 80px;
+                padding-left: 10px;                                                                
+                border-radius: 7px;
+                width: 120px;
             }
 
             #main button.btn-cotiza:hover {
                 background-color: #145A32;
                 color: #ffffff;
+                transition: 0.2s ease;
             }
 
             /* Quotes */
@@ -550,12 +567,14 @@ header {
                 top: 25px;
                 left: 200px;
                 border-radius: 5px;
-                background-color: #ffffff;                                
+                background-color: #ff0000;
+                color: #ffffff;
             }
             
             #main div button.btn-information:hover{
-                background-color: #ff0000;
-                color: #ffffff;
+                background-color: #13c941;
+                color: #000000;
+                transition: 0.2s ease;
             }
 
             
@@ -585,7 +604,7 @@ header {
                 background-repeat: no-repeat;                
                 position: relative;  
                 align-items: center;                                                     
-                height: 250px;                
+                height: 300px;                
                 padding-left: 50px;
                 padding-right: 50px;
             }
@@ -800,7 +819,7 @@ header {
                 font-weight: 600;
             }
 
-            #footer form input.it-mensaje {
+            #footer form textarea.it-mensaje {
                 position: relative;
                 display: flex;
                 border-radius: 7px;                                                                       
@@ -814,22 +833,24 @@ header {
                 outline: none;
                 text-align: justify;
                 font-weight: 600;
-                
-            }
+                resize: none;
+            }            
 
             #footer form button.btn-enviar{
                 position: absolute;                
-                margin-top: -20px;
-                margin-left: 35px;
+                margin-top: -2%;
+                margin-left: 15px;
+                padding:3px 7px 3px 7px;
                 border-radius: 5px;
                 background-color: #ff0000;
                 color: #ffffff;
-                border: none;
+                border: none;            
             }
 
                 #main div button.btn-enviar:hover {
                     background-color: #13c941;
                     color: #ffffff;
+                    transition: 0.2s ease;
                 }
 
             #footer form input.it-telefono{
@@ -974,9 +995,9 @@ header {
             #footer div img.sketch-footer{
                 display: absolute;                
                 float: left;
-                padding-left: 10%;
+                padding-left: 12%;
                 padding-top: 2%;
-                height: 35px;                
+                height: 55px;                
                 filter: invert(100%); 
 
             }
@@ -988,7 +1009,7 @@ header {
                 font-size: 1.2em;
                 font-family: Arial, Helvetica, sans-serif;
                 font-weight: 400;                                                                        
-                margin-left: -7%;
+                margin-left: -8%;                
                 padding-top: 100px;
                 text-decoration: none;     
                 
@@ -1009,7 +1030,7 @@ header {
                 float: left;
                 padding-left: 15%;
                 padding-top: 20px;
-                height: 45px;                
+                height: 60px;                
                 filter: invert(100%);
             }
 
@@ -1022,7 +1043,7 @@ header {
                 Helvetica,
                 sans-serif;
                 font-weight: 400;
-                margin-left: -5%;
+                margin-left: -5.5%;
                 padding-top: 100px;
                 text-decoration: none; 
                                
@@ -1082,16 +1103,27 @@ header {
                z-index: 2;
            }
 
-          
+
+        /* MEDIA QUERIES */
+
+           @media screen and (min-width: 1368px) and (max-width: 1919px){
+               #main div.back-ground {
+                   padding-left: 250px;
+            }
+        }
+
+         @media screen and (min-width: 760px) and (max-width: 1360) {
+             #main div.back-ground {
+
+             }
+         }
+
+         @media screen and (min-width: 480px) and (max-width: 750px) {
+             #main div.back-ground {
+
+             }
+         }
            
-           /*
-           #footer div span #botonArriba {
-               position: fixed;
-               bottom: 20px;
-               right: -100px;
-               width: 40px;
-           }           
-           */ 
            
    
         
