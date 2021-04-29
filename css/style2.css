@@ -365,78 +365,69 @@ header {
 
 }
 
-#main section div.container-imgBack {
-    position: relative;
-    height: 130px;
-    width: 130px;
-    top: 15px;
+#main section img.img-hacienda {
+    position: absolute;
+    height: 230px;
+    width: 310px;
+    top: 7px;
+    padding: 12px;
     background-repeat: no-repeat;
     background-position: 50%;
-    border-radius: 50%;
-    background-size: 100% auto;
-    background-color: #2ECC71;
-}
-
-#main section img.img-preConstruccion {
-    position: relative;
-    height: 70px;
-    top: 20%;
-    left: 2%;
-    filter: invert(100%);
+    border-radius: 13px;
+    background-size: 100% auto;    
 }
 
 
-#main section img.img-faseConstruccion {
-    position: relative;
-    height: 70px;
-    top: 15%;
-    filter: invert(100%);
-    height: 80px;
-}
 
-#main section img.img-postConstruccion {
-    position: relative;
-    height: 80px;
-    top: 20%;
-    left: 3%;
-    filter: invert(100%);
-}
-
-#main header h3.title-card1,
-.title-card2,
-.title-card3 {
+#main header h3.title-card1, .title-card2, .title-card3 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.2em;
     margin-left: 35px;
     margin-right: 35px;
+    padding-top: 95%;
+    margin-left: -25%;    
 }
 
-#main footer.list-text {
-    position: relative;
-    text-align: left;
-    margin: 0;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 10%;
-    text-align: justify;
+#main header p.Subtitle-1, .Subtitle-2, .Subtitle-3 {
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -10px;
+    font-family: -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
 }
 
-#main div button.btn-information {
+#main section footer i{
     display: block;
     position: relative;
-    top: 25px;
-    left: 200px;
-    border-radius: 5px;
-    background-color: #ffffff;
+    margin-left: -270px;
+    margin-top: 25px;   
+    align-items: left;
 }
 
-#main div button.btn-information:hover {
-    background-color: #ff0000;
-    color: #ffffff;
+#main section footer p.icon-text {
+    position: absolute;
+    display: absolute;
+    left: 20%;
+    top: 75%;
+    padding-top: -155px;    
 }
 
-
-
+#main section footer h3.lblPrecio{
+    font-size: 1.4em;
+    display: absolute;
+    position: absolute;
+    left: 6%;
+    font-family: Isidora Soft;
+    color: #13c941;
+}
 
 
 /* Items Background */
