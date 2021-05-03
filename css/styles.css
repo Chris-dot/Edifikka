@@ -188,12 +188,13 @@ header {
                 -webkit-text-stroke: 1px black;                
             }
 
-            #banner header div input[type=text] {
+            #banner header div input[type=search] { /*Antes type=text*/
                 display: relative;
                 position: fixed;
                 font-size: 1.2em;
+                font-family: Arial, Helvetica, sans-serif;
                 width: 65%;
-                height: 40px;
+                height: 45px;
                 margin-bottom: 15px;
                 padding-left: 15px;
                 padding-right: 45px;
@@ -201,7 +202,7 @@ header {
                 border-radius: 7px;
             }
 
-            #banner header div.search-box input[type=text] {
+            #banner header div.search-box input[type=search] { /*Antes type=text*/
                 position: relative;                
                 top: -50px;
                 left: 1%;
