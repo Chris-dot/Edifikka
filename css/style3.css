@@ -365,11 +365,13 @@ header {
     left: 200px;
     border-radius: 5px;
     background-color: #ffffff;
+    color: #ffffff;
 }
 
 #main div button.btn-information:hover {
-    background-color: #ff0000;
+    background-color: #13c941;
     color: #ffffff;
+    transition: 0.2s ease;
 }
 
 
