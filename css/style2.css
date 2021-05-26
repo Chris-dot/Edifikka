@@ -263,7 +263,7 @@ header {
 
 #section div button.btnGuardar, .btnCompartir{
     display: absolute;
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 7px;
     padding: 7px 0 7px 0;
     margin: 15px 0 15px 0;
@@ -273,6 +273,10 @@ header {
     text-align: left;
     cursor: pointer;
     font-size: 0.9em;
+}
+
+#section .btnGuardar:hover, .btnCompartir:hover {
+    background-color: #dddddd;
 }
 
 #section div button.btnEnviar{
@@ -289,6 +293,9 @@ header {
     font-size: 0.9em;
 }
 
+#section .btnEnviar:hover {
+    background-color: #dddddd;
+}
 
 #section div i{
     color: #2ECC71;
