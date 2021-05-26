@@ -3,6 +3,8 @@
 });
 */
 
+// Barra de busqueda Banner
+
 const buscador = document.querySelector('#buscador');
 const boton = document.querySelector('#boton');
 
@@ -22,3 +24,8 @@ div.style.display = "absolute";
 }
 */
 
+//Circular NavBar Contact RRSS
+document.querySelector(".navbar-btn").addEventListener("click", () => {
+
+    document.querySelector(".navbar-wrapper").classList.toggle("change");
+});
