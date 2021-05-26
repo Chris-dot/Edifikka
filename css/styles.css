@@ -142,7 +142,120 @@ header {
             background: #fff;
         }
 
-    
+    /*Contact Roulette RRSS*/
+
+    #nav div.navbar-wrapper {
+        width: 70%; /* antes 100% */
+        height: 100vh;
+        margin-top: -250px;
+        background-color: #f2f2fc;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+
+    /* Navbar size is zero by default*/
+    #nav div.navbar {
+        width: 7rem;
+        height: 7rem;
+        background-color: #FA0B0B;
+        position: relative;
+        left: 95%;
+        top: -130px;
+        display: flex; /*antes flex*/
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        transform: scale(0) rotate(-180deg);
+        transition: transform .5s;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+            0 3px 6px rgba(0, 0, 0, 0.23);
+    }
+
+
+    /* When button is active */
+    #nav .change .navbar {
+        transform: scale(1) rotate(0);
+    }
+
+    #nav div .navbar-link {
+        position: absolute;
+    }
+
+    #nav div .navbar-link i {
+        font-size: 1rem;
+        color: #fff;
+        transition: color 0.3s;
+    }
+
+    #nav div .navbar-link:hover i {
+        columns: #222;
+    }
+
+    /* Setting tbe position of icons*/
+    #nav div .navbar-link:hover i {
+        color: #222;
+    }
+
+    #nav div .navbar-link:nth-child(1) {
+        top: 3rem;
+        left: 1rem;
+    }
+
+    #nav div .navbar-link:nth-child(2) {
+        top: 5rem;
+        right: 2rem;
+    }
+
+    #nav div .navbar-link:nth-child(3) {
+        bottom: 5rem;
+        right: 2rem;
+    }
+
+    #nav div .navbar-link:nth-child(4) {
+        bottom: 2.6rem;
+        left: 5.3rem;
+    }
+
+    #nav div .navbar-link:nth-child(5) {
+        bottom: 5rem;
+        left: 2rem;
+    }
+
+    #nav div .navbar-link:nth-child(6) {
+        top: 5rem;
+        left: 2rem;
+    }
+
+
+    #nav div .navbar-btn {
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        background-color: #2ECC71;
+        display: flex; /*antes flex*/
+        left: 100%;
+        top: 20px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        cursor: pointer;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+            0 3px 6px rgba(0, 0, 0, 0.23);
+    }
+
+    /* Rotate the buttn icon on click*/
+
+    #nav .navbar-btn i {
+        font-size: 1rem;
+        color: #fff;
+        transition: transform 0.5s;
+    }
+
+    #nav .change .navbar-btn i {
+        transform: rotate(45deg);
+    }
 
 
 /* BANNER */
@@ -199,7 +312,8 @@ header {
                 padding-left: 15px;
                 padding-right: 45px;
                 position: center;
-                border-radius: 7px;
+                border-radius: 25px;
+                background-color: #ffffff;
             }
 
             #banner header div.search-box input[type=search] { /*Antes type=text*/
@@ -208,7 +322,8 @@ header {
                 left: 1%;
                 transform: translate3d(-50%, -50%); 
                 outline: 0;
-                z-index: 9;                   
+                z-index: 9;    
+                               
             }
         
 
@@ -237,7 +352,8 @@ header {
                 border-radius: 50%;
                 display: flex;
                 justify-content: center;
-                align-items: center;                
+                align-items: center;
+                              
             }
 
             #banner header div i{               
@@ -247,6 +363,7 @@ header {
                 top: -45px;
                 color: #797D7F;
                 z-index: 10;
+                
             }
 
             #banner header div i:hover{
@@ -544,7 +661,7 @@ header {
                 height: 70px;
                 top: 20%;
                 left: 7%;
-                filter: invert(100%);
+                filter: invert(100%);                
             }
 
             #main header h3.title-card1 {                
@@ -559,7 +676,7 @@ header {
                 text-align: left;
                 margin: 0;                
                 padding-left: 15px;
-                padding-bottom: 10%;
+                padding-bottom: 10%;                
             }
 
             #main div button.btn-information{
@@ -579,7 +696,7 @@ header {
             }
 
             
-            
+            /*Items Background*/
             
             #main div.container-back{                
                 background-position: center center;
@@ -594,6 +711,7 @@ header {
                 background-position: center;
                 transition: .2s;
                 text-align: center;
+                justify-content: center;
                 overflow: hidden;
                 z-index: 3;                
             }
