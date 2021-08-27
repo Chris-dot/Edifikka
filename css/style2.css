@@ -142,11 +142,12 @@ header {
     background: #fff;
 }
 
+
 /*Contact Roulette RRSS*/
 
 #nav div.navbar-wrapper {
-    width: 60%;
-    height: 100vh;
+    width: 30%;
+    height: 50vh;/* antes 100 */
     margin-top: -150px;
     /* background-color: #f2f2fc; */
     display: flex;
@@ -256,6 +257,7 @@ header {
 #nav .change .navbar-btn i {
     transform: rotate(45deg);
 }
+
 
 
 /* TOP PAGE */
@@ -372,7 +374,9 @@ header {
     background-color: #c70d0d;
     border: none;
     outline: none;
+    cursor: pointer;
 }
+
 
 #section div button.btnGuardar, .btnCompartir{
     display: absolute;
@@ -409,6 +413,7 @@ header {
 #section .btnEnviar:hover {
     background-color: #dddddd;
 }
+
 
 #section div i{
     color: #2ECC71;
@@ -485,7 +490,7 @@ header {
 
 }
 
-#main section img.img-hacienda {
+#main section img.img-hacienda1, .img-hacienda2, .img-hacienda3 {
     position: absolute;
     height: 230px;
     width: 310px;
